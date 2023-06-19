@@ -29,3 +29,5 @@ C:\Users\Денис\source\repos\Restaurant\Restaurant.Web\obj\Debug\net6.0\refi
 C:\Users\Денис\source\repos\Restaurant\Restaurant.Web\obj\Debug\net6.0\Restaurant.Web.pdb
 C:\Users\Денис\source\repos\Restaurant\Restaurant.Web\obj\Debug\net6.0\Restaurant.Web.genruntimeconfig.cache
 C:\Users\Денис\source\repos\Restaurant\Restaurant.Web\obj\Debug\net6.0\ref\Restaurant.Web.dll
+C:\Users\Денис\source\repos\Restaurant\Restaurant.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Денис\source\repos\Restaurant\Restaurant.Web\obj\Debug\net6.0\Restaurant.Web.csproj.CopyComplete
