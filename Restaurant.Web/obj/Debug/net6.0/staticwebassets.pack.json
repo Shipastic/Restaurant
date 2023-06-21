@@ -8449,6 +8449,46 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Денис\\source\\repos\\Restaurant\\Restaurant.Web\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Денис\\source\\repos\\Restaurant\\Restaurant.Web\\wwwroot\\images\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Денис\\source\\repos\\Restaurant\\Restaurant.Web\\wwwroot\\images\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Денис\\source\\repos\\Restaurant\\Restaurant.Web\\wwwroot\\images\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Денис\\source\\repos\\Restaurant\\Restaurant.Web\\wwwroot\\images\\mango.png",
+      "PackagePath": "staticwebassets\\images\\mango.png"
+    },
+    {
+      "Id": "C:\\Users\\Денис\\source\\repos\\Restaurant\\Restaurant.Web\\wwwroot\\images\\order.PNG",
+      "PackagePath": "staticwebassets\\images\\order.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Денис\\source\\repos\\Restaurant\\Restaurant.Web\\wwwroot\\images\\png-clipart.png",
+      "PackagePath": "staticwebassets\\images\\png-clipart.png"
+    },
+    {
+      "Id": "C:\\Users\\Денис\\source\\repos\\Restaurant\\Restaurant.Web\\wwwroot\\images\\restaurant.png",
+      "PackagePath": "staticwebassets\\images\\restaurant.png"
+    },
+    {
+      "Id": "C:\\Users\\Денис\\source\\repos\\Restaurant\\Restaurant.Web\\wwwroot\\images\\restaurant_2.png",
+      "PackagePath": "staticwebassets\\images\\restaurant_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Денис\\source\\repos\\Restaurant\\Restaurant.Web\\wwwroot\\images\\restaurant_black.png",
+      "PackagePath": "staticwebassets\\images\\restaurant_black.png"
+    },
+    {
       "Id": "C:\\Users\\Денис\\source\\repos\\Restaurant\\Restaurant.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
