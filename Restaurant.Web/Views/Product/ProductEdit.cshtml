@@ -1,9 +1,10 @@
 ﻿@model Restaurant.Web.Models.ProductDto
 
-<form asp-action="ProductCreate">
+<form asp-action="ProductEdit">
+    <input asp-for="ProductId" hidden />
     <br />
     <div class="container border p-3">
-        <h1 class="text-primary">Создать блюдо</h1>
+        <h1 class="text-primary">Редактировать блюдо</h1>
 
         <hr />
         <div class="row">
@@ -48,7 +49,7 @@
                 <a asp-action="ProductIndex" class="btn-primary btn form-control ">Назад к меню</a>
             </div>
             <div class="col-5">
-                <input type="submit" value="Создать" class="btn btn-success form-control" />
+                <input type="submit" value="Обновить" class="btn btn-success form-control" />
 
             </div>
 

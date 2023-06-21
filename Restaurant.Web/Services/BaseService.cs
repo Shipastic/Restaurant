@@ -9,11 +9,11 @@ namespace Restaurant.Web.Services
     public class BaseService : IBaseService
     {
         public ResponseDto responseModel { get; set; }
-        public IHttpClientFactory httpClient { get; set; }
-        public BaseService(IHttpClientFactory httpClient)
+        public IHttpClientFactory HttpClient { get; set; }
+        public BaseService(IHttpClientFactory HttpClient)
         {
             this.responseModel = new ResponseDto();
-            this.httpClient = httpClient;
+            this.HttpClient = HttpClient;
         }
         public void Dispose()
         {
@@ -24,8 +24,8 @@ namespace Restaurant.Web.Services
         {
             try
             {
-                var client = httpClient.CreateClient("RestaurantAPI");
-                HttpRequestMessage message = new HttpRequestMessage();
+                var client = HttpClient.CreateClient("RestaurantAPI");
+                HttpRequestMessage message = new();
                 message.Headers.Add("Accept", "application/json");
                 message.RequestUri = new Uri(apiRequest.Url);
                 client.DefaultRequestHeaders.Clear();
@@ -35,29 +35,18 @@ namespace Restaurant.Web.Services
 
                 }
 
-                HttpResponseMessage apiResponse = null;
-                switch (apiRequest.ApiType)
+                HttpResponseMessage? apiResponse = null;
+                message.Method = apiRequest.ApiType switch
                 {
-                    case SD.ApiType.GET:
-                        message.Method = HttpMethod.Get;
-                        break;
-                    case SD.ApiType.POST:
-                        message.Method = HttpMethod.Post;
-                        break;
-                    case SD.ApiType.PUT:
-                        message.Method = HttpMethod.Put;
-                        break;
-                    case SD.ApiType.DELETE:
-                        message.Method = HttpMethod.Delete;
-                        break;
-                    default:
-                        message.Method = HttpMethod.Get;
-                        break;
-                }
-
+                    SD.ApiType.GET => HttpMethod.Get,
+                    SD.ApiType.POST => HttpMethod.Post,
+                    SD.ApiType.PUT => HttpMethod.Put,
+                    SD.ApiType.DELETE => HttpMethod.Delete,
+                    _ => HttpMethod.Get,
+                };
                 apiResponse = await client.SendAsync(message);
 
-                var apiContent = await apiResponse.Content.ReadAsStringAsync();
+                string? apiContent = await apiResponse.Content.ReadAsStringAsync();
                 var apiResponseDto = JsonConvert.DeserializeObject<T>(apiContent);
                 return apiResponseDto;
             }
