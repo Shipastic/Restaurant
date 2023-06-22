@@ -7,8 +7,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Restaurant.Pages;
-
+namespace Restaurant.Services.Identity.MainModule;
 public static class Extensions
 {
     /// <summary>

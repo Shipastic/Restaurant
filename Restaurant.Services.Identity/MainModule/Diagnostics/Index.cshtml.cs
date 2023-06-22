@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Restaurant.Pages.Diagnostics;
+namespace Restaurant.Services.Identity.MainModule.Diagnostics;
 
 [SecurityHeaders]
 [Authorize]

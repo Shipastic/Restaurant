@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Restaurant.Pages.Create;
+namespace Restaurant.Services.Identity.MainModule.Account.Create;
 
 [SecurityHeaders]
 [AllowAnonymous]

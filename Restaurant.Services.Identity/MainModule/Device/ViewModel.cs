@@ -1,4 +1,4 @@
-namespace Restaurant.Pages.Device;
+namespace Restaurant.Services.Identity.MainModule.Device;
 
 public class ViewModel
 {

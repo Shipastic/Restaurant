@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Restaurant.Pages.Consent;
+namespace Restaurant.Services.Identity.MainModule.Consent;
 
 [Authorize]
 [SecurityHeadersAttribute]

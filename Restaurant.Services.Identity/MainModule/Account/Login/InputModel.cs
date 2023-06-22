@@ -4,7 +4,7 @@
 
 using System.ComponentModel.DataAnnotations;
 
-namespace Restaurant.Pages.Login;
+namespace Restaurant.Services.Identity.MainModule.Account.Login;
 
 public class InputModel
 {

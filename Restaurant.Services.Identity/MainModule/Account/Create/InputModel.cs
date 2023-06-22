@@ -4,7 +4,7 @@
 
 using System.ComponentModel.DataAnnotations;
 
-namespace Restaurant.Pages.Create;
+namespace Restaurant.Services.Identity.MainModule.Account.Create;
 
 public class InputModel
 {

@@ -2,7 +2,7 @@
 // See LICENSE in the project root for license information.
 
 
-namespace Restaurant.Pages.Consent;
+namespace Restaurant.Services.Identity.MainModule.Consent;
 
 public class ConsentOptions
 {

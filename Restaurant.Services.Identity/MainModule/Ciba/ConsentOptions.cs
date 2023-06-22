@@ -2,7 +2,7 @@
 // See LICENSE in the project root for license information.
 
 
-namespace Restaurant.Pages.Ciba;
+namespace Restaurant.Services.Identity.MainModule.Ciba;
 
 public class ConsentOptions
 {

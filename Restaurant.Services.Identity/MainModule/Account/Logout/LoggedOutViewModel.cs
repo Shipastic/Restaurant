@@ -3,7 +3,7 @@
 // See LICENSE in the project root for license information.
 
 
-namespace Restaurant.Pages.Logout;
+namespace Restaurant.Services.Identity.MainModule.Account.Logout;
 
 public class LoggedOutViewModel
 {

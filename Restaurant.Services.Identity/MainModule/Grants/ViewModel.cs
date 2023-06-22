@@ -1,4 +1,4 @@
-namespace Restaurant.Pages.Grants;
+namespace Restaurant.Services.Identity.MainModule.Grants;
 
 public class ViewModel
 {

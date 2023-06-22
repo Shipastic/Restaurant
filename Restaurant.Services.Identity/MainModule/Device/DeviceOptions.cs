@@ -2,7 +2,7 @@
 // See LICENSE in the project root for license information.
 
 
-namespace Restaurant.Pages.Device;
+namespace Restaurant.Services.Identity.MainModule.Device;
 
 public class DeviceOptions
 {

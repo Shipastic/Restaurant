@@ -8,7 +8,7 @@ using System.Text.Json;
 using Duende.IdentityServer;
 using Duende.IdentityServer.Test;
 
-namespace Restaurant;
+namespace Restaurant.Services.Identity.MainModule;
 
 public class TestUsers
 {

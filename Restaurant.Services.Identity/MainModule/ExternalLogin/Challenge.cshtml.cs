@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Restaurant.Pages.ExternalLogin;
+namespace Restaurant.Services.Identity.MainModule.ExternalLogin;
 
 [AllowAnonymous]
 [SecurityHeaders]
