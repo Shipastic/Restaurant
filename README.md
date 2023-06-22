@@ -8,7 +8,7 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
-### Проект разрабатывается как веб-сайт для заказа блюд онлайн из ресторана.
+Проект разрабатывается как веб-сайт для заказа блюд онлайн из ресторана.
 ### Построен на микросервисной архитектуре, где каждый сервис изолирован от других и работает со своей базой данных.
 ### Общение между сервисами налажено с использованием сервисной шины.
 
