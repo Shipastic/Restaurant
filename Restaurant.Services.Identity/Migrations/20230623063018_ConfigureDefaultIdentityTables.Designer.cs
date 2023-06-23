@@ -12,7 +12,7 @@ using Restaurant.Services.Identity.DbContexts;
 namespace Restaurant.Services.Identity.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230622100909_ConfigureDefaultIdentityTables")]
+    [Migration("20230623063018_ConfigureDefaultIdentityTables")]
     partial class ConfigureDefaultIdentityTables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -175,6 +175,14 @@ namespace Restaurant.Services.Identity.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
